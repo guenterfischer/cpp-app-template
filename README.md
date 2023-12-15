@@ -5,7 +5,7 @@ Template for a C++ application with CMake and Conan.
 
 ## Build
 
-There are already some profiles available at ./tools/conan/.
+There are already some profiles available at ./tools/conan/. \
 New profiles can be added as required.
 
 ### Release Build with gcc-11
@@ -31,13 +31,13 @@ cmake --build . -- -j
 
 ## Unit Tests
 
-In addition to the main application, a unit test application is also built.
+In addition to the main application, a unit test application is also built. \
 It is located at <build-dir>/source/test and can be run from the command line.
 
 
 ## Benchmarks
 
-In addition to the main application, a benchmark application is also built.
+In addition to the main application, a benchmark application is also built. \
 It is located at <build-dir>/source/bench and can be run from the command line.
 
 
