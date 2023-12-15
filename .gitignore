@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Build artifacts
+build
+
+# Temporary files
+CMakeUserPresets.json
+compile_commands.json
+.cache
+
+# Python related files
+__pycache__/
